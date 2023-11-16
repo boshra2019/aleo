@@ -7,11 +7,10 @@
 
 -------------------------------------------------
 
--------------------------------------------
 git clone https://github.com/celestiaorg/networks
 
 -------------------------------
-rm -rf networks
+
 git clone https://github.com/celestiaorg/networks.git
 
 --------------------------
