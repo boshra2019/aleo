@@ -7,13 +7,10 @@ git clone https://github.com/celestiaorg/networks
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 
 -------------------------------------------------
-
 git clone https://github.com/celestiaorg/networks
 
 -------------------------------
 git clone https://github.com/celestiaorg/networks
-
-git clone https://github.com/celestiaorg/networks.git
 
 --------------------------
 CELESTIA_NODENAME="MY_NODE" 
