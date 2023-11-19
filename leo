@@ -13,7 +13,6 @@ git clone https://github.com/celestiaorg/networks
 git clone https://github.com/celestiaorg/networks
 
 --------------------------
-CELESTIA_NODENAME="MY_NODE" 
 CELESTIA_WALLET="MY_WALLET"
 CELESTIA_CHAIN="mamaki"
 
