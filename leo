@@ -13,9 +13,6 @@ git clone https://github.com/celestiaorg/networks
 --------------------------
 CELESTIA_WALLET="MY_WALLET"
 
-  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
-به عنوان مثال :
-
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
 CELESTIA_CHAIN="mamaki"
