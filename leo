@@ -1,7 +1,5 @@
 
-
 ---------------------------------------------
-
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
 
 -------------------------------------------------
@@ -10,7 +8,6 @@
 git clone https://github.com/celestiaorg/networks
 
 --------------------------
-CELESTIA_WALLET="MY_WALLET"
 
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
