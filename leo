@@ -6,12 +6,10 @@
 
 -------------------------------
 git clone https://github.com/celestiaorg/networks
-
+CELESTIA_CHAIN="mamaki"
 --------------------------
-
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
-CELESTIA_CHAIN="mamaki"
 
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
