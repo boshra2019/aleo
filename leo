@@ -6,7 +6,6 @@
 git clone https://github.com/celestiaorg/networks
 CELESTIA_CHAIN="mamaki"
 --------------------------
-CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
@@ -17,10 +16,8 @@ source $HOME/.bash_profile
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 -------------------------------------
 cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
-
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
-
 ---------------------------------------------
 BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
 
