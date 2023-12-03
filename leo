@@ -1,12 +1,12 @@
 
 ---------------------------------------------
  "export PATH=$PATH:/usr/local/go/bin:$HOME/go" >> $HOME/.bash_profile
-
+CELESTIA_WALLET="amir8372"
 -------------------------------
 git clone https://github.com/celestiaorg/networks
 CELESTIA_CHAIN="mamaki"
 --------------------------
-CELESTIA_WALLET="amir8372"
+
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
@@ -20,7 +20,7 @@ cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
 ---------------------------------------------
 BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
-
+CELESTIA_WALLET="amir8372"
 --------------------------------------------------
 echo $BOOTSTRAP_PEERS
 
