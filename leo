@@ -6,7 +6,6 @@ CELESTIA_WALLET="amir8372"
 git clone https://github.com/celestiaorg/networks
 CELESTIA_CHAIN="mamaki"
 --------------------------
-source $HOME/.bash_profile
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
